@@ -1,0 +1,30 @@
+﻿<Window x:Class="Calculatrice.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculatrice"
+        mc:Ignorable="d"
+        Title="Calculatrice" Height="400" Width="300">
+    <Grid Background="Gray" >
+        <TextBlock TextWrapping="Wrap" Text="" FlowDirection="RightToLeft" x:Name="calc" HorizontalAlignment="Left" Margin="55,10,0,0" VerticalAlignment="Top" Height="57" Width="229" FontSize="30" Background="White" />
+        <Button Content="RESET" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="135" Height="51" Click="Reset" FontSize="20" Background="red" />
+        <Button Content="/" HorizontalAlignment="Left" Margin="150,72,0,0" VerticalAlignment="Top" Width="64" Height="51" Click="Button_Divide" FontSize="20" Background="Lime" />
+        <Button Content="*" HorizontalAlignment="Left" Margin="219,72,0,0" VerticalAlignment="Top" Width="65" Height="51" RenderTransformOrigin="-0.887,0.523" Click="Button_Multiply" FontSize="20" Background="Lime" />
+        <Button Content="7" HorizontalAlignment="Left" Margin="10,128,0,0" VerticalAlignment="Top" Width="65" Height="51" Click="Button_Num" FontSize="20" Background="LightBlue" />
+        <Button Content="8" HorizontalAlignment="Left" Margin="80,128,0,0" VerticalAlignment="Top" Width="65" Height="51" RenderTransformOrigin="1.015,0.559" Click="Button_Num" FontSize="20" Background="LightBlue" />
+        <Button Content="9" HorizontalAlignment="Left" Margin="150,128,0,0" VerticalAlignment="Top" Width="64" Height="51" RenderTransformOrigin="0.104,0.471" Click="Button_Num" FontSize="20" Background="LightBlue" />
+        <Button Content="-" HorizontalAlignment="Left" Margin="219,128,0,0" VerticalAlignment="Top" Width="65" Height="51" RenderTransformOrigin="-0.364,-0.065" Click="Button_Minus" FontSize="20" Background="Lime" />
+        <Button Content="4" HorizontalAlignment="Left" Margin="10,184,0,0" VerticalAlignment="Top" Width="65" Height="51" Click="Button_Num" FontSize="20" Background="LightBlue" />
+        <Button Content="5" HorizontalAlignment="Left" Margin="80,184,0,0" VerticalAlignment="Top" Width="65" Height="51" RenderTransformOrigin="1.015,0.559" Click="Button_Num" FontSize="20" Background="LightBlue" />
+        <Button Content="6" HorizontalAlignment="Left" Margin="150,184,0,0" VerticalAlignment="Top" Width="64" Height="51" RenderTransformOrigin="0,0.497" Click="Button_Num" FontSize="20" Background="LightBlue" />
+        <Button Content="+" HorizontalAlignment="Left" Margin="219,184,0,0" VerticalAlignment="Top" Width="65" Height="51" RenderTransformOrigin="0.2,0.497" Click="Button_Plus" FontSize="20" Background="Lime" />
+        <Button Content="1" HorizontalAlignment="Left" Margin="10,240,0,0" VerticalAlignment="Top" Width="65" Height="51" Click="Button_Num" FontSize="20" Background="LightBlue" />
+        <Button Content="2" HorizontalAlignment="Left" Margin="80,240,0,0" VerticalAlignment="Top" Width="65" Height="51" RenderTransformOrigin="1.015,0.559" Click="Button_Num" FontSize="20" Background="LightBlue" />
+        <Button Content="3" HorizontalAlignment="Left" Margin="150,240,0,0" VerticalAlignment="Top" Width="64" Height="51" Click="Button_Num" FontSize="20" Background="LightBlue" />
+        <Button Content="0" HorizontalAlignment="Left" Margin="10,296,0,0" VerticalAlignment="Top" Width="204" Height="51" RenderTransformOrigin="1.015,0.559" Click="Button_Num" FontSize="20" Background="LightBlue" />
+        <Button Content="=" HorizontalAlignment="Left" Margin="219,240,0,0" VerticalAlignment="Top" Width="65" Height="107" Click="Result" FontSize="20" Background="LightYellow" />
+        <Label x:Name="operatorSign" Content="" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="40" Height="57" FontSize="30" Background="White" />
+
+    </Grid>
+</Window>

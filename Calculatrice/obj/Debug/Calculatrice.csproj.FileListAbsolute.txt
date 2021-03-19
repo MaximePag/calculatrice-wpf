@@ -1,0 +1,15 @@
+C:\Users\Maxime\OneDrive\Bureau\dev\Calculatrice\Calculatrice\bin\Debug\Calculatrice.exe.config
+C:\Users\Maxime\OneDrive\Bureau\dev\Calculatrice\Calculatrice\bin\Debug\Calculatrice.exe
+C:\Users\Maxime\OneDrive\Bureau\dev\Calculatrice\Calculatrice\bin\Debug\Calculatrice.pdb
+C:\Users\Maxime\OneDrive\Bureau\dev\Calculatrice\Calculatrice\obj\Debug\Calculatrice.csprojAssemblyReference.cache
+C:\Users\Maxime\OneDrive\Bureau\dev\Calculatrice\Calculatrice\obj\Debug\MainWindow.g.cs
+C:\Users\Maxime\OneDrive\Bureau\dev\Calculatrice\Calculatrice\obj\Debug\App.g.cs
+C:\Users\Maxime\OneDrive\Bureau\dev\Calculatrice\Calculatrice\obj\Debug\Calculatrice_MarkupCompile.cache
+C:\Users\Maxime\OneDrive\Bureau\dev\Calculatrice\Calculatrice\obj\Debug\Calculatrice_MarkupCompile.lref
+C:\Users\Maxime\OneDrive\Bureau\dev\Calculatrice\Calculatrice\obj\Debug\MainWindow.baml
+C:\Users\Maxime\OneDrive\Bureau\dev\Calculatrice\Calculatrice\obj\Debug\Calculatrice.g.resources
+C:\Users\Maxime\OneDrive\Bureau\dev\Calculatrice\Calculatrice\obj\Debug\Calculatrice.Properties.Resources.resources
+C:\Users\Maxime\OneDrive\Bureau\dev\Calculatrice\Calculatrice\obj\Debug\Calculatrice.csproj.GenerateResource.cache
+C:\Users\Maxime\OneDrive\Bureau\dev\Calculatrice\Calculatrice\obj\Debug\Calculatrice.csproj.CoreCompileInputs.cache
+C:\Users\Maxime\OneDrive\Bureau\dev\Calculatrice\Calculatrice\obj\Debug\Calculatrice.exe
+C:\Users\Maxime\OneDrive\Bureau\dev\Calculatrice\Calculatrice\obj\Debug\Calculatrice.pdb
